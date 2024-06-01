@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+}
+
+.menu {
+  flex: 1;
+  border: solid;
+  padding: 10px;
+}
+.content {
+  flex: 4;
+  padding: 50px;
+}

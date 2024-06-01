@@ -1,0 +1,18 @@
+.container {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px 0px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.container.active {
+  background-color: #ff610054;
+}
+.container.active:hover {
+  background-color: #ff610054;
+}
+.container:hover {
+  background-color: #e5e7eb;
+}
