@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 80%;
+  width: 85%;
+  justify-content: space-around;
+  border-radius: 30px;
+  border-style: dashed;
+  border-color: rgba(128, 128, 128, 0.34);
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.uploadButton {
+  width: 150px;
+  height: 40px;
+  background-color: var(--buttonColor);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: medium;
+}

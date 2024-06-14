@@ -10,7 +10,15 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "14.0.1",
+    "@uppy/dashboard": "^3.8.3",
+    "@uppy/drag-drop": "^3.1.0",
+    "@uppy/file-input": "^3.1.2",
+    "@uppy/progress-bar": "^3.1.1",
+    "@uppy/react": "^3.3.1",
+    "@uppy/status-bar": "^3.3.3",
+    "install": "^0.13.0",
     "next": "14.0.1",
+    "npm": "^10.8.1",
     "react": "18",
     "react-dom": "18",
     "react-icons": "4.11"

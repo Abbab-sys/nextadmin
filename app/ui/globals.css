@@ -2,6 +2,7 @@
   --bg: #ffffff;
   --text: #000000;
   --textSoft: #93949a;
+  --buttonColor: #ff6100;
 }
 
 * {
@@ -17,4 +18,15 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.uppy-Container {
+  width: 100% !important;
+}
+.uppy-Root {
+  width: 100% !important;
+}
+
+.uppy-Dashboard-inner {
+  width: 100% !important;
 }

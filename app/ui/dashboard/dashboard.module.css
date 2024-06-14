@@ -4,10 +4,27 @@
 
 .menu {
   flex: 1;
-  border: solid;
+  border-top-style: none;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-color: #e5e7eb;
   padding: 10px;
 }
 .content {
   flex: 4;
   padding: 50px;
+}
+
+.wrapper {
+  display: flex;
+  margin-top: 20px;
+  /* background-color: #93949a20; */
+  border-radius: 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.cards {
+  display: flex;
 }

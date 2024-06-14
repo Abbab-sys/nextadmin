@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #93949a20;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: larger;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.downloadButton {
+  width: 150px;
+  height: 40px;
+  background-color: var(--buttonColor);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: medium;
+}
+.downloadButton:hover {
+  cursor: pointer;
+}
